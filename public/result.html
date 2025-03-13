@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>比賽排名</title>
+</head>
+<body>
+  <h1>比賽排名</h1>
+  <div id="rankingsTable"></div>
+
+  <script>
+    // 從 URL 參數獲取 raceId
+    const urlParams = new URLSearchParams(window.location.search);///window.location.search == 使用者在網站上輸入的內容
+    const raceId = urlParams.get('raceId');
+
+    fetch(`/api/races/${raceId}/rankings`) // 使用模板字串和 raceId//fertch(x) x可以是網址，也可是某種路徑
+      .then(response => response.json())
+      .then(data => {
+        // 方法 1: 直接插入 HTML (如果您選擇在後端產生 HTML)
+        // document.getElementById('rankingsTable').innerHTML = data.htmlTable;
+
+        // 方法 2: 使用 JavaScript 動態建立表格 (更推薦)
+        createTable(data.rankings);
+      });
+
+    function createTable(rankings) {
+      const table = document.createElement('table');
+      const thead = document.createElement('thead');
+      const tbody = document.createElement('tbody');
+
+      // 建立表頭
+      const headerRow = document.createElement('tr');
+      ['排名', '晶片 ID', '比賽用時 (毫秒)'].forEach(headerText => {
+        const th = document.createElement('th');
+        th.textContent = headerText;
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
+
+      // 建立表格內容
+      rankings.forEach(record => {
+        const row = document.createElement('tr');
+        [record.rank, record.chipId, record.duration].forEach(cellText => {
+          const td = document.createElement('td');
+          td.textContent = cellText;
+          row.appendChild(td);
+        });
+        tbody.appendChild(row);
+      });
+      table.appendChild(tbody);
+
+      document.getElementById('rankingsTable').appendChild(table);
+    }
+  </script>
+</body>
+</html>

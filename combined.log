@@ -1,0 +1,35 @@
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-10T11:10:16.375Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-10T11:10:16.378Z"}
+{"level":"info","message":"Calculating durations for race 67c80a084ca896724cf196a8...","timestamp":"2025-03-10T11:18:11.168Z"}
+{"level":"info","message":"Durations calculated and updated for race 67c80a084ca896724cf196a8.","timestamp":"2025-03-10T11:18:11.319Z"}
+{"count":4,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-10T11:18:41.339Z"}
+{"count":4,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-10T11:18:43.525Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-10T11:23:12.829Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-10T11:23:12.833Z"}
+{"level":"info","message":"Calculating durations for race 67c80a084ca896724cf196a8...","timestamp":"2025-03-10T11:23:53.391Z"}
+{"level":"info","message":"Durations calculated and updated for race 67c80a084ca896724cf196a8.","timestamp":"2025-03-10T11:23:53.537Z"}
+{"count":5,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-10T11:23:57.211Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-10T16:30:59.850Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-10T16:30:59.853Z"}
+{"count":3,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-10T16:31:12.796Z"}
+{"level":"info","message":"Calculating durations for race 67c80a084ca896724cf196a8...","timestamp":"2025-03-10T16:32:14.391Z"}
+{"level":"info","message":"Durations calculated and updated for race 67c80a084ca896724cf196a8.","timestamp":"2025-03-10T16:32:14.495Z"}
+{"count":3,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-10T16:32:21.055Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-11T03:15:01.470Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-11T03:15:01.478Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-11T03:21:36.310Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-11T03:21:36.316Z"}
+{"level":"info","message":"Calculating durations for race 67c80a084ca896724cf196a8...","timestamp":"2025-03-11T03:25:32.362Z"}
+{"level":"info","message":"Durations calculated and updated for race 67c80a084ca896724cf196a8.","timestamp":"2025-03-11T03:25:32.612Z"}
+{"count":4,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-11T03:27:12.353Z"}
+{"count":4,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-11T03:27:14.434Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-11T18:25:48.654Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-11T18:25:48.662Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-11T18:29:38.169Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-11T18:29:38.172Z"}
+{"level":"info","message":"Calculating durations for race 67d082cc6a94c5ed3a735b21...","timestamp":"2025-03-11T18:43:37.019Z"}
+{"level":"info","message":"Durations calculated and updated for race 67d082cc6a94c5ed3a735b21.","timestamp":"2025-03-11T18:43:37.132Z"}
+{"count":4,"level":"info","message":"Rankings for race 67c80a084ca896724cf196a8 fetched successfully.","raceId":"67c80a084ca896724cf196a8","timestamp":"2025-03-11T18:46:36.396Z"}
+{"count":3,"level":"info","message":"Rankings for race 67d082cc6a94c5ed3a735b21 fetched successfully.","raceId":"67d082cc6a94c5ed3a735b21","timestamp":"2025-03-11T18:46:54.376Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-12T12:05:28.677Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-12T12:05:28.680Z"}
