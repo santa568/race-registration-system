@@ -33,3 +33,5 @@
 {"count":3,"level":"info","message":"Rankings for race 67d082cc6a94c5ed3a735b21 fetched successfully.","raceId":"67d082cc6a94c5ed3a735b21","timestamp":"2025-03-11T18:46:54.376Z"}
 {"level":"info","message":"Server started on port 3000","timestamp":"2025-03-12T12:05:28.677Z"}
 {"level":"warn","message":"Low disk space","timestamp":"2025-03-12T12:05:28.680Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2025-03-13T18:10:10.969Z"}
+{"level":"warn","message":"Low disk space","timestamp":"2025-03-13T18:10:10.973Z"}
